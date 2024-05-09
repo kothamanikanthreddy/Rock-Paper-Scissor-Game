@@ -1,0 +1,45 @@
+.container{
+    display:flex;
+    justify-content:center;
+}
+.games{
+    display:flex;
+    height:60px;
+    width:600px;
+    text-align:center;
+    border:2px solid black;
+    justify-content:space-evenly;
+    background-color:pink;
+}
+.game{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    border-radius:50%;
+    align-content: center;
+}
+.game:hover{
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+}
+.scoreboard{
+    text-align:center;
+}
+.msg{
+    text-align:center;
+}
+.msgc{
+    text-align:center;
+    height:50px;
+    width:100px;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    color:white;
+    background-color: black;
+}
+.mat{
+    display:flex;
+    justify-content: center;
+}
